@@ -1,18 +1,26 @@
 import { Product } from '@/types/entities';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { selector, actionsCreators } from '@/features/products';
 import { useDispatch, useSelector } from 'react-redux';
+import ProductDetail from './ProductDetail/ProductDetail';
 export interface ProductListInterface {}
 
 const ProductList: React.FC<ProductListInterface> = () => {
+  const [product, setProduct] = useState<Product | null>(null);
   const dispatch = useDispatch();
+
   const numberFormat = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'COP',
   });
+
   const {
     products: { dataProducts },
   } = useSelector((state: any) => selector(state));
+
+  const handleProduct = (product: Product) => {
+    setProduct(product);
+  };
 
   useEffect(() => {
     dispatch(actionsCreators.list());
@@ -30,7 +38,8 @@ const ProductList: React.FC<ProductListInterface> = () => {
             {dataProducts.map((product: Product) => (
               <div
                 key={product.sku}
-                className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+                className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md cursor-pointer dark:bg-gray-800 dark:border-gray-700"
+                onClick={() => handleProduct(product)}
               >
                 <img
                   key={product.sku}
@@ -62,9 +71,23 @@ const ProductList: React.FC<ProductListInterface> = () => {
         </div>
 
         <div>
-          <h3 className="border-b-2 py-7 border-blue-700 text-4xl font-medium">
-            Dynamic Title
-          </h3>
+          <div className="border-b-2 border-blue-700 py-7">
+            <h3
+              className={`text-4xl font-medium ${
+                product ? 'visible' : 'invisible'
+              }`}
+            >
+              Producto
+            </h3>
+          </div>
+
+          {product ? (
+            <ProductDetail product={product} />
+          ) : (
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              Por favor, escoge un producto
+            </p>
+          )}
         </div>
       </div>
     </section>
