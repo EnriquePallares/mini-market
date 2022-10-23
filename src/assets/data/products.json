@@ -1,0 +1,172 @@
+{
+  "products": [
+    {
+      "sku": "001",
+      "name": "Aguacate",
+      "image": "/src/assets/images/products/aguacate.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 3000,
+      "quantity": 0
+    },
+    {
+      "sku": "002",
+      "name": "Ajo",
+      "image": "/src/assets/images/products/ajo.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 200,
+      "quantity": 0
+    },
+    {
+      "sku": "003",
+      "name": "Almendras",
+      "image": "/src/assets/images/products/almendras.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 2000,
+      "quantity": 0
+    },
+    {
+      "sku": "004",
+      "name": "Arándanos",
+      "image": "/src/assets/images/products/arandanos.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 5000,
+      "quantity": 0
+    },
+    {
+      "sku": "005",
+      "name": "Brócoli",
+      "image": "/src/assets/images/products/brocoli.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 600,
+      "quantity": 0
+    },
+    {
+      "sku": "006",
+      "name": "Calabaza",
+      "image": "/src/assets/images/products/calabaza.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 8000,
+      "quantity": 0
+    },
+    {
+      "sku": "007",
+      "name": "Canela",
+      "image": "/src/assets/images/products/canela.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 150,
+      "quantity": 0
+    },
+    {
+      "sku": "008",
+      "name": "Cebolla",
+      "image": "/src/assets/images/products/cebolla.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 500,
+      "quantity": 0
+    },
+    {
+      "sku": "009",
+      "name": "Fresa",
+      "image": "/src/assets/images/products/fresa.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 6000,
+      "quantity": 0
+    },
+    {
+      "sku": "010",
+      "name": "Kiwi",
+      "image": "/src/assets/images/products/kiwi.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 4000,
+      "quantity": 0
+    },
+    {
+      "sku": "011",
+      "name": "Limón",
+      "image": "/src/assets/images/products/limon.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 3000,
+      "quantity": 0
+    },
+    {
+      "sku": "012",
+      "name": "Lychee",
+      "image": "/src/assets/images/products/lychee.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 12000,
+      "quantity": 0
+    },
+    {
+      "sku": "013",
+      "name": "Maíz",
+      "image": "/src/assets/images/products/maiz.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 1200,
+      "quantity": 0
+    },
+    {
+      "sku": "014",
+      "name": "Manzana",
+      "image": "/src/assets/images/products/manzana.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 5000,
+      "quantity": 0
+    },
+    {
+      "sku": "015",
+      "name": "Naranja",
+      "image": "/src/assets/images/products/naranja.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 3500,
+      "quantity": 0
+    },
+    {
+      "sku": "016",
+      "name": "Papa",
+      "image": "/src/assets/images/products/papa.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 7000,
+      "quantity": 0
+    },
+    {
+      "sku": "017",
+      "name": "Pasta",
+      "image": "/src/assets/images/products/pasta.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 15000,
+      "quantity": 0
+    },
+    {
+      "sku": "018",
+      "name": "Pimienta",
+      "image": "/src/assets/images/products/pimienta.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 800,
+      "quantity": 0
+    },
+    {
+      "sku": "019",
+      "name": "Repollo",
+      "image": "/src/assets/images/products/repollo.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 4500,
+      "quantity": 0
+    },
+    {
+      "sku": "020",
+      "name": "Tomate",
+      "image": "/src/assets/images/products/tomate.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 2500,
+      "quantity": 0
+    },
+    {
+      "sku": "021",
+      "name": "Zanahoria",
+      "image": "/src/assets/images/products/zanahoria.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempor porttitor. Vestibulum varius eros id hendrerit hendrerit. Quisque scelerisque velit magna, vitae rhoncus ipsum pulvinar eu. Sed sed mattis eros. Ut ultricies rutrum fermentum. Etiam aliquam mauris a eros fermentum tincidunt. Donec ultricies placerat ullamcorper.",
+      "price": 1500,
+      "quantity": 0
+    }
+  ]
+}

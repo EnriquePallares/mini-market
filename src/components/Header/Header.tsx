@@ -6,8 +6,8 @@ export interface HeaderInterface {}
 const Header: React.FC<HeaderInterface> = () => {
   return (
     <header>
-      <nav className="flex relative py-2 items-center justify-between bg-cyan-500">
-        <div className="container mx-auto flex items-center justify-between">
+      <nav className="flex relative py-2 items-center justify-between">
+        <div className="container mx-auto px-3 rounded flex items-center justify-between bg-slate-100">
           <a
             href="#"
             className="py-1 mr-5 no-underline whitespace-nowrap text-xl leading-normal"
@@ -19,7 +19,10 @@ const Header: React.FC<HeaderInterface> = () => {
             />
           </a>
 
-          <button className="rounded text-xl bg-[#fef200] py-1 px-3">
+          <button
+            type="button"
+            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          >
             <FontAwesomeIcon role="button" icon={faCartShopping} /> $0
           </button>
         </div>

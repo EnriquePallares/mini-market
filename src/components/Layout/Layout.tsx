@@ -6,7 +6,7 @@ export interface LayoutInterface {}
 
 const Layout: React.FC<LayoutInterface> = () => {
   return (
-    <div>
+    <div className='bg-[url("/src/assets/images/main-fondo.jpg")] bg-contain'>
       <Header />
       <Outlet />
       {/* <Footer /> */}
