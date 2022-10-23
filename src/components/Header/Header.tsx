@@ -7,7 +7,7 @@ const Header: React.FC<HeaderInterface> = () => {
   return (
     <header>
       <nav className="flex relative py-2 items-center justify-between">
-        <div className="container mx-auto px-3 rounded flex items-center justify-between bg-slate-100">
+        <div className="container mx-auto px-3 rounded flex items-center justify-between bg-white">
           <a
             href="#"
             className="py-1 mr-5 no-underline whitespace-nowrap text-xl leading-normal"
