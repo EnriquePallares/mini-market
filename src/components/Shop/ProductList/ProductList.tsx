@@ -20,6 +20,11 @@ const ProductList: React.FC<ProductListInterface> = () => {
     // setOpenModal(true);
   };
 
+  const getImageUrl = (name: string) => {
+    return new URL(`../../../assets/images/products/${name}`, import.meta.url)
+      .href;
+  };
+
   const closeModal = () => setOpenModal(false);
 
   const addToCart = (sku: number) => {
@@ -47,7 +52,7 @@ const ProductList: React.FC<ProductListInterface> = () => {
               >
                 <img
                   key={product.sku}
-                  src={product.image}
+                  src={getImageUrl(product.image)}
                   alt={product.name}
                   className="py-2 px-7 border border-gray-400"
                 />

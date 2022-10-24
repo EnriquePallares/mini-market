@@ -8,9 +8,16 @@ const ProductDetail: React.FC<{
   product: Product | null;
   addToCart: Function;
 }> = ({ product, addToCart }) => {
+  const getImageUrl = (name: string | undefined) => {
+    return new URL(
+      `../../../../assets/images/products/${name}`,
+      import.meta.url
+    ).href;
+  };
+
   return (
     <div className="product-detail mt-4">
-      <img src={product?.image} alt={product?.name} />
+      <img src={getImageUrl(product?.image)} alt={product?.name} />
 
       <div className="flex justify-between items-center border-b border-primary mt-4 pb-2">
         <div className="info">
