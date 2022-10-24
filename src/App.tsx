@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Provider store={store}>
-      <BrowserRouter basename="/minimarket">
+      <BrowserRouter>
         <AppRoutes />
       </BrowserRouter>
     </Provider>
