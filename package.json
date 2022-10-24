@@ -12,6 +12,8 @@
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "flowbite": "^1.5.3",
+    "flowbite-react": "^0.3.2",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "path": "^0.12.7",

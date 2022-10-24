@@ -3,9 +3,11 @@ import React, { useEffect, useState } from 'react';
 import { selector, actionsCreators } from '@/features/products';
 import { useDispatch, useSelector } from 'react-redux';
 import ProductDetail from './ProductDetail/ProductDetail';
+import { Modal } from 'flowbite-react';
 export interface ProductListInterface {}
 
 const ProductList: React.FC<ProductListInterface> = () => {
+  const [openModal, setOpenModal] = useState(false);
   const [product, setProduct] = useState<Product | null>(null);
   const dispatch = useDispatch();
 
@@ -15,7 +17,10 @@ const ProductList: React.FC<ProductListInterface> = () => {
 
   const handleProduct = (product: Product) => {
     setProduct(product);
+    // setOpenModal(true);
   };
+
+  const closeModal = () => setOpenModal(false);
 
   useEffect(() => {
     dispatch(actionsCreators.list());
@@ -23,13 +28,13 @@ const ProductList: React.FC<ProductListInterface> = () => {
 
   return (
     <section className="container mx-auto px-3 mt-4">
-      <div className="grid grid-cols-4 gap-8">
-        <div className="col-span-3">
+      <div className="grid md:grid-cols-4 gap-8">
+        <div className="md:col-span-3">
           <h3 className="border-b-2 py-4 text-primary border-primary text-2xl font-medium">
             Store
           </h3>
 
-          <div className="grid grid-cols-3 gap-4 py-4">
+          <div className="grid md:grid-cols-3 gap-4 py-4">
             {dataProducts.map((product: Product) => (
               <div
                 key={product.sku}
@@ -47,7 +52,7 @@ const ProductList: React.FC<ProductListInterface> = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hidden md:block">
           <div className="border-b-2 border-primary py-4">
             <h3
               className={`text-2xl font-medium text-primary ${
@@ -66,6 +71,19 @@ const ProductList: React.FC<ProductListInterface> = () => {
             </p>
           )}
         </div>
+
+        <Modal
+          show={openModal}
+          onClose={closeModal}
+          tabIndex={-1}
+          size="md"
+          aria-hidden="true"
+        >
+          <Modal.Header></Modal.Header>
+          <Modal.Body>
+            <ProductDetail product={product} />
+          </Modal.Body>
+        </Modal>
       </div>
     </section>
   );
