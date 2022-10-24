@@ -22,6 +22,10 @@ const ProductList: React.FC<ProductListInterface> = () => {
 
   const closeModal = () => setOpenModal(false);
 
+  const addToCart = (sku: number) => {
+    console.log(sku);
+  };
+
   useEffect(() => {
     dispatch(actionsCreators.list());
   }, [dispatch]);
@@ -64,7 +68,7 @@ const ProductList: React.FC<ProductListInterface> = () => {
           </div>
 
           {product ? (
-            <ProductDetail product={product} />
+            <ProductDetail product={product} addToCart={addToCart} />
           ) : (
             <p className="font-normal text-gray-500 py-4">
               Please choose a product on the left
@@ -81,7 +85,7 @@ const ProductList: React.FC<ProductListInterface> = () => {
         >
           <Modal.Header></Modal.Header>
           <Modal.Body>
-            <ProductDetail product={product} />
+            <ProductDetail product={product} addToCart={addToCart} />
           </Modal.Body>
         </Modal>
       </div>

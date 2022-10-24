@@ -8,36 +8,41 @@ interface Action {
 export const NAME = 'cart';
 
 // Actions
-const LIST_TRY = '[cart]/LIST_TRY';
-const LIST_SUCCESS = '[cart]/LIST_SUCCESS';
-const LIST_FAILED = '[cart]/LIST_FAILED';
+const ADD_TO_CART = '[cart]/ADD_TO_CART';
+const REMOVE_ONE_FROM_CART = '[cart]/REMOVE_ONE_FROM_CART';
+const REMOVE_ALL_FROM_CART = '[cart]/REMOVE_ALL_FROM_CART';
+const CLEAR_CART = '[cart]/CLEAR_CART';
 
 export const actionTypes = {
-  LIST_TRY,
-  LIST_FAILED,
-  LIST_SUCCESS,
+  ADD_TO_CART,
+  REMOVE_ONE_FROM_CART,
+  REMOVE_ALL_FROM_CART,
+  CLEAR_CART,
 };
 
 // InitialState
 const initialState = {
+  products: [],
   dataCart: [],
 };
 
 // Reducer
 export default function reducer(state = initialState, action: Action) {
   switch (action.type) {
-    case actionTypes.LIST_TRY:
+    case actionTypes.ADD_TO_CART:
       return { ...state };
-    case actionTypes.LIST_FAILED:
+    case actionTypes.REMOVE_ONE_FROM_CART:
       return { ...state };
-    case actionTypes.LIST_SUCCESS:
-      return { ...state, dataCart: action?.data };
+    case actionTypes.REMOVE_ALL_FROM_CART:
+      return { ...state };
+    case actionTypes.CLEAR_CART:
+      return { ...state };
     default:
       return state;
   }
 }
 
-const list = () => ({ type: LIST_TRY });
+const list = () => ({ type: ADD_TO_CART });
 export const actionsCreators = {
   list,
 };

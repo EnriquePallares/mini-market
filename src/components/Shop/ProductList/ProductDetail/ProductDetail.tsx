@@ -4,7 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 export interface ProductDetailInterface {}
 
-const ProductDetail: React.FC<{ product: Product | null }> = ({ product }) => {
+const ProductDetail: React.FC<{
+  product: Product | null;
+  addToCart: Function;
+}> = ({ product, addToCart }) => {
   return (
     <div className="product-detail mt-4">
       <img src={product?.image} alt={product?.name} />
@@ -27,6 +30,7 @@ const ProductDetail: React.FC<{ product: Product | null }> = ({ product }) => {
             icon={faPlus}
             role="button"
             className="bg-primary text-white py-2 px-4"
+            onClick={() => addToCart(product?.sku)}
           />
         </div>
       </div>
